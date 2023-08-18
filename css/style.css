@@ -10,6 +10,7 @@
 }
 .card:hover{transform: scale(1.1);}
 
+.linkAnuncio{color: white; }
 
 
 
@@ -23,20 +24,6 @@ color: aliceblue;}
     color: #000000;
 }
 .img2{width: 100px;}
-
-
-
-.icon-group{
-    height: 50px; width: 60px; border-radius: 10px; cursor: pointer; transition: width 1s ease;
-}
-
-.icon-group:hover{width: 175px; justify-content: space-around;}
-
-.icon-group .icon-text{width: 0; overflow: hidden;}
-
-.icon-group:hover .icon-text{width: fit-content; transition: width 1s ease;}
-
-.fontFooter .icon.bg{position: absolute; clip-path: circle(50% at -110% 60%);}
 
 
 
