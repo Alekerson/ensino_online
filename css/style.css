@@ -1,11 +1,49 @@
+/* NAVBAR */
 .logo{width: 50px;}
-.img1{width: 100%;}
+
+
+/* MAIN */
+
 .btn1{text-decoration: none;}
 .btn1:hover{
     text-decoration: underline;
 }
-
 .card:hover{transform: scale(1.1);}
 
-.img2{width: 100px;}
+
+
+
+/* FOOTER */
 footer{background-color: #0056D2;}
+
+.linkFooter{text-decoration: none;
+color: aliceblue;}
+
+.linkFooter:hover{
+    color: #000000;
+}
+.img2{width: 100px;}
+
+
+
+.icon-group{
+    height: 50px; width: 60px; border-radius: 10px; cursor: pointer; transition: width 1s ease;
+}
+
+.icon-group:hover{width: 175px; justify-content: space-around;}
+
+.icon-group .icon-text{width: 0; overflow: hidden;}
+
+.icon-group:hover .icon-text{width: fit-content; transition: width 1s ease;}
+
+.fontFooter .icon.bg{position: absolute; clip-path: circle(50% at -110% 60%);}
+
+
+
+@media screen and (max-width: 1050px){
+    footer section{display: flex; flex-direction: column;}
+    .fontFooter{order: 3;}
+    .logoFooter{order: 2;}
+    .politica{gap: 8px;}
+    
+}
