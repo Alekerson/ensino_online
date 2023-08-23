@@ -34,3 +34,18 @@ color: aliceblue;}
     .politica{gap: 8px;}
     
 }
+
+.mainLogin{
+    height: 90vh;
+}
+
+
+.Login{width: 90%;}
+.Login:hover{background-color: #fff; color: #0056D2;}
+
+.cadastro{background-color: #07a80ff6; width: 90%; color: #fff;}
+.cadastro:hover{background-color:#fff; outline:1px solid #07a80ff6; color: #07a80ff6;}
+
+.generoCadastro{
+    height: 90vh;
+}

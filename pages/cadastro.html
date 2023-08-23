@@ -40,54 +40,93 @@
                         <a class="nav-link fs-6" href="#">Pós-Graduação</a>
                     </li>
                 </ul>
+                <a href="login.html" class="btn btn-outline-primary" type="submit">login</a>
             </div>
         </div>
     </nav>
 
     <!-- ********************* MAIN ************************** -->
-    <main class="container-fluid mainLogin bg-body-tertiary d-flex align-items-center">
-        <div class="row w-100 d-flex justify-content-around">
-            <div class="col-lg-4 col-sm-12">
-                <figure>
-                    <img src="../assets/image/login/logo coursera.svg" alt="">
-                </figure>
-                <div>
-                    <p class="fs-2 lead">Descubra o caminho para o seu sucesso com os cursos de excelência que oferecemos</p>
+    <main class="container generoCadastro">
+        <h1 class="text-center my-5">Informações pessoais</h1>
+
+        <form action="#">
+            <div>
+                <!-- CAMPO DE TEXTO:NOME  E SOBRENOME-->
+                <section class="row mb-3">
+                    <div class="col-6">
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Nome">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" id="nome" name="nome" class="form-control" placeholder="Sobrenome">
+                    </div>
+                </section>
+
+                <!-- CAMPO IDADE -->
+                <section class="row mb-3">
+                    <div class="col-12">
+                        <input type="number" name="idade" id="idade" class="form-control" placeholder="Idade">
+                    </div>
+                </section>
+                <!-- CAMPO ENDEREÇO -->
+                <section class="row mb-3">
+                    <div class="col-6">
+                        <input type="text" id="Rua" name="Rua" class="form-control" placeholder="Rua">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" id="Numero" name="Numero" class="form-control" placeholder="Número da Casa">
+                    </div>
+                    <div class="col-12 mt-3">
+                        <input type="text" id="Bairro" name="Bairro" class="form-control" placeholder="Bairro">
+                    </div>
+                </section>
+
+                <!-- CAMPO DE EMAIL: EMAIL -->
+                <section class="row mb-3">
+                    <div class="col-12">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                </section>
+
+                <!-- CAMPO TEL -->
+                <section class="row mb-3">
+                    <div class="col-12 input-group">
+                        <input type="tel" name="tel" id="tel" class="form-control " placeholder="Celular">
+                    </div>
+                </section>
+                <!-- CAMPO GENERO -->
+                <section class="row mb-3 ">
+                    <div class="col-12 input-group">
+                        <select name="genero" id="genero" class="form-select">
+                            <option value="">Gênero</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                            <option value="Outros">Outros</option>
+                        </select>
+                    </div>
+                </section>
+                <!-- CAMPO DATA DE NASCIMENTO -->
+                <section class="row mb-3">
+                    <div class="col-12 input-group">
+                        <input type="date" name="data" id="data" class="form-control " placeholder="dd/mm/aaaa">
+                    </div>
+                </section>
+
+                <div class="col-6 mx-auto my-3">
+                    <button type="submit" class="btn btn-primary col-12">Cadastrar</button>
                 </div>
             </div>
 
-            <div class="col-lg-4 col-sm-12">
-                <form class="form-control">
-            
-                    <h2 style="font-family: 'Courier New', Courier, monospace;">LOGIN</h2>
-                    <section class="mb-3">
-                        <input type="text" class="form-control" placeholder="Email">
-                    </section>
+            <section>
 
-                    <section>
-                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Password">
-                    </section>
-                    <hr>
-                    <section class="d-flex justify-content-center mt-2">
-                        <button type="button" class="btn btn-primary Login">
-                            Login
-                        </button>
-                    </section>
-                    <section class="d-flex justify-content-center my-2">
-                        <a href="cadastro.html" type="button" class="btn cadastro">
-                            Cadastro
-                        </a>
-                    </section>
+            </section>
+        </form>
 
-                </form>
-            </div>
-        </div>
 
     </main>
 
     <!-- ************************ FOOTER ************************ -->
 
-    <footer class="container-fluid ">
+    <footer class="container-fluid mt-5">
         <section class=" row">
 
             <div class="col-lg-2 logoFooter">
