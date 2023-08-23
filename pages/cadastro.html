@@ -50,6 +50,7 @@
         <h1 class="text-center my-5">Informações pessoais</h1>
 
         <form action="#">
+            <!-- CAMPOS DE CONTATOS PESSOAIS -->
             <div>
                 <!-- CAMPO DE TEXTO:NOME  E SOBRENOME-->
                 <section class="row mb-3">
@@ -80,17 +81,11 @@
                     </div>
                 </section>
 
-                <!-- CAMPO DE EMAIL: EMAIL -->
-                <section class="row mb-3">
-                    <div class="col-12">
-                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-                    </div>
-                </section>
-
                 <!-- CAMPO TEL -->
                 <section class="row mb-3">
                     <div class="col-12 input-group">
-                        <input type="tel" name="tel" id="tel" class="form-control " placeholder="Celular" maxlength="13">
+                        <input type="tel" name="tel" id="tel" class="form-control " placeholder="Celular"
+                            maxlength="13">
                     </div>
                 </section>
                 <!-- CAMPO GENERO -->
@@ -145,6 +140,30 @@
                     <div class="col-6 ">
                         <label for="cod">Código de segurança</label>
                         <input type="text" name="cod" id="cod" placeholder="123" class="form-control" maxlength="3">
+                    </div>
+                </section>
+            </div>
+
+            <!-- FINALIZANDO CADASTRO -->
+            <div>
+                <!-- CAMPO DE EMAIL: EMAIL -->
+                <section class="row mb-3">
+                    <div class="col-12">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                </section>
+
+                <!-- CONFIRMAÇÃO DE EMAIL -->
+                <section class="row mb-3">
+                    <div class="col-12">
+                        <input type="email" id="confirmacao" name="confirmacao" class="form-control" placeholder="Confirmação de Email" disabled>
+                    </div>
+                </section>
+
+                <!-- CAMPO DE EMAIL: EMAIL -->
+                <section class="row mb-3">
+                    <div class="col-12">
+                        <input type="password" id="senha" name="senha" class="form-control" placeholder="Password">
                     </div>
                 </section>
             </div>
