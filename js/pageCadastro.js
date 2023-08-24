@@ -26,10 +26,16 @@ tel.addEventListener('keyup', function(event){
     let i = tel.value.length
     aux = tel.value
     console.log(tel.value.length)
+
     if(i == 0)
     tel.value = aux + "("
-    if(i == 3)
+  
+    if(i == 2)
     tel.value = aux + ")"
+  
+
+    if(i == 8)
+    tel.value = aux + "-"
   }
 })
 
