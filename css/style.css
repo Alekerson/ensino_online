@@ -43,15 +43,10 @@ color: aliceblue;}
 .Login{width: 90%;}
 .Login:hover{background-color: #fff; color: #0056D2;}
 
-.cadastro{background-color: #07a80ff6; width: 90%; color: #fff;}
-.cadastro:hover{background-color:#fff; outline:1px solid #07a80ff6; color: #07a80ff6;}
+.btncadastro{background-color: #07a80ff6; width: 90%; color: #fff;}
+.btncadastro:hover{background-color:#fff; outline:1px solid #07a80ff6; color: #07a80ff6;}
 
-/* .Cadastro{
-    height: 90vh;
-} */
-
-
-.final{
+.Cadastro{
     height: 80vh;
-    
 }
+

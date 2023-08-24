@@ -36,9 +36,6 @@
                     <li class="nav-item">
                         <a class="nav-link active fs-6" href="universidades.html">Universidades</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-6" href="#">Pós-Graduação</a>
-                    </li>
                 </ul>
                 <a href="login.html" class="btn btn-outline-primary" type="submit">login</a>
             </div>
@@ -50,7 +47,7 @@
         <h1 class="text-center my-5">Informações pessoais</h1>
 
         <!-- CAMPOS DE CONTATOS PESSOAIS -->
-        <form class="row g-3 needs-validation" novalidate>
+        <form action="cadCartao.html" class="row g-3 needs-validation" id="formPessoal" novalidate>
 
             <div class="col-md-6">
                 <label for="validationCustom01" class="form-label">Nome</label>
@@ -67,17 +64,6 @@
                     Looks good!
                 </div>
             </div>
-
-            <!-- <div class="col-md-4">
-                  <label for="validationCustomUsername" class="form-label">Email</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                    <div class="invalid-feedback">
-                      Please choose a username.
-                    </div>
-                  </div>
-                </div> -->
 
             <div class="col-md-6">
                 <label for="rua" class="form-label">Rua</label>
@@ -96,7 +82,7 @@
                 <label for="bairro" class="form-label">Bairro</label>
                 <input type="text" class="form-control" id="bairro" required>
                 <div class="invalid-feedback">
-                    Coloque um bairro Valida.
+                    Coloque um bairro Valido.
                 </div>
             </div>
 
@@ -132,91 +118,14 @@
                 <label for="data" class="form-label">Data de nascimento</label>
                 <input type="text" class="form-control" id="data" required>
                 <div class="invalid-feedback">
-                    Coloque um bairro Valida.
+                    bota a data que tu nasceu ai sio.
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                        Concorde com os termos e condições
-                    </label>
-                    <div class="invalid-feedback">
-                        Você deve concordar antes de enviar.
-                    </div>
-                </div>
-            </div>
             <div class="col-6 mx-auto my-3">
                 <button class="btn btn-primary col-12" type="submit">Próximo</button>
             </div>
         </form>
-
-        <!-- CAMPOS DE CARTÃO -->
-        <div id="infoCartao">
-            <section class="row mb-3">
-                <div class="col-12 input-group">
-                    <input type="text" name="cartao" id="cartao" placeholder="N° do cartão" class="form-control"
-                        maxlength="19">
-                </div>
-            </section>
-
-            <!-- CAMPO CPF -->
-            <section class="row mb-3">
-                <div class="col-12 input-group">
-                    <input type="text" name="cpf" id="cpf" class="form-control " placeholder="CPF" maxlength="14">
-                </div>
-            </section>
-
-            <section class="row mb-3">
-                <div class="col-6 ">
-                    <label for="validade"> Data de vencimento</label>
-                    <input type="month" name="validade" id="validade" placeholder="Data de Validade"
-                        class="form-control">
-                </div>
-
-                <div class="col-6 ">
-                    <label for="cod">Código de segurança</label>
-                    <input type="text" name="cod" id="cod" placeholder="123" class="form-control" maxlength="3">
-                </div>
-            </section>
-
-
-            <div class="col-6 mx-auto my-3">
-                <button type="submit" class="btn btn-primary col-12" id="next">Próximo</button>
-            </div>
-        </div>
-
-        <!-- FINALIZANDO CADASTRO -->
-        <div id="infoFinalizando">
-
-            <!-- CAMPO DE EMAIL: EMAIL -->
-            <section class="row mb-3">
-                <div class="col-12">
-                    <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-                </div>
-            </section>
-
-            <!-- CONFIRMAÇÃO DE EMAIL -->
-            <section class="row mb-3">
-                <div class="col-12">
-                    <input type="email" id="confirmacao" name="confirmacao" class="form-control"
-                        placeholder="Confirmação de Email" disabled>
-                </div>
-            </section>
-
-            <!-- CAMPO DE EMAIL: EMAIL -->
-            <section class="row mb-3">
-                <div class="col-12">
-                    <input type="password" id="senha" name="senha" class="form-control" placeholder="Password">
-                </div>
-            </section>
-
-            <div class="col-6 mx-auto my-3">
-                <a href="finalizar.html" class="btn btn-primary col-12" id="finalizar">Finalizar</a>
-            </div>
-        </div>
-
 
     </main>
 
