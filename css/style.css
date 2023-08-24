@@ -46,6 +46,12 @@ color: aliceblue;}
 .cadastro{background-color: #07a80ff6; width: 90%; color: #fff;}
 .cadastro:hover{background-color:#fff; outline:1px solid #07a80ff6; color: #07a80ff6;}
 
-.Cadastro{
+/* .Cadastro{
     height: 90vh;
+} */
+
+
+.final{
+    height: 80vh;
+    
 }
