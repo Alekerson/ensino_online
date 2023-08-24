@@ -46,7 +46,11 @@ color: aliceblue;}
 .btncadastro{background-color: #07a80ff6; width: 90%; color: #fff;}
 .btncadastro:hover{background-color:#fff; outline:1px solid #07a80ff6; color: #07a80ff6;}
 
-.Cadastro{
-    height: 80vh;
+
+
+.final{
+    height: 70vh;
 }
+
+.finaldiv{height: 30vh;}
 

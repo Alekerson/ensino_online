@@ -18,20 +18,11 @@
     })
   })()
 
-let tel = document.querySelector("#tel")
 
 
-tel.addEventListener('keyup', function(event){
-  if (event.keyCode != 32 && event.keyCode != 46){
-    let i = tel.value.length
-    aux = tel.value
-    console.log(tel.value.length)
-    if(i == 0)
-    tel.value = aux + "("
-    if(i == 3)
-    tel.value = aux + ")"
-  }
+let email = document.querySelector("#email")
+let confirmar = document.querySelector("#confirmar")
+
+email.addEventListener("keyup", function(){
+  confirmar.value = email.value
 })
-
-
-
